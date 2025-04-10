@@ -12,19 +12,19 @@
 - Allure Reports
 - Git
 
-## ✅ Покрытие тестами
+## Покрытие тестами
 - [x] GET — проверка получения данных
 - [x] POST — создание новой записи
 - [x] PUT / PATCH — обновление данных
 - [x] DELETE — удаление ресурса
 
-## 🚀 Как запустить проект
-1. Клонируй репозиторий:
+## Как запустить проект
+1. Клон репозиторий:
    ```bash
    git clone https://github.com/BermetB16/RestAssured_Api.git
 
-2. Открой в IDE (например IntelliJ IDEA).
-Запусти тесты через TestNG.
+2. Открыть в IDE (например IntelliJ IDEA).
+Запуск тесты через TestNG.
 
 3.Чтобы получить отчет Allure:
 mvn clean test
