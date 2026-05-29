@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.9.dtd">
+<suite name="ReqRes API Suite">
+    <test name="API Tests">
+        <classes>
+            <class name="api.test.GetUserTest"/>
+            <class name="api.test.CreateUserTest"/>
+            <class name="api.test.UpdateUserPutTest"/>
+            <class name="api.test.UpdateUserPatchTest"/>
+            <class name="api.test.DeleteUserTest"/>
+        </classes>
+    </test>
+</suite>
